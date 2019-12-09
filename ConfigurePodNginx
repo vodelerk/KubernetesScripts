@@ -21,3 +21,10 @@ kubectl describe pod nginx
 
 Delete the pod:
 kubectl delete pod nginx
+
+//check health status
+Get a list of nodes:
+kubectl get nodes
+
+Get more information about a specific node:
+kubectl describe node $node_name
