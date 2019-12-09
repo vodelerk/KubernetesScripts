@@ -72,3 +72,9 @@ NAME            STATUS   ROLES    AGE   VERSION
 ip-10-0-1-101   Ready    master   85s   v1.12.2
 ip-10-0-1-102   Ready    <none>   63s   v1.12.2
 ip-10-0-1-103   Ready    <none>   60s   v1.12.2
+
+
+Get a list of system pods running in the cluster:
+kubectl get pods -n kube-system
+Check the status of the kubelet service:
+sudo systemctl status kubelet
